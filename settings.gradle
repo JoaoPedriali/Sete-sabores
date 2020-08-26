@@ -1,0 +1,2 @@
+rootProject.name='Sete Sabores'
+include ':app'
