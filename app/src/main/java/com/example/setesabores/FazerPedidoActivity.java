@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
+public class FazerPedidoActivity extends AppCompatActivity {
 
     //João Pedro Pedriali de Araujo - RA 0097894 - Análise e desenvolvimento de sistemas
 
@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_fazer_pedido);
     }
 
     //funções vinculadas aos botões
