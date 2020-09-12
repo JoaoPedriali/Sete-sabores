@@ -66,4 +66,16 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.628" />
 
+    <Button
+        android:id="@+id/enviarMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="148dp"
+        android:text="@string/escreva_mensagem"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addPedido2"
+        android:onClick="onEnviarMensagem"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

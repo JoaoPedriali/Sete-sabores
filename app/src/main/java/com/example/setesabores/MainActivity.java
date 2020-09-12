@@ -2,6 +2,7 @@ package com.example.setesabores;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -28,5 +29,11 @@ public class MainActivity extends AppCompatActivity {
         TextView horas = (TextView) findViewById(R.id.txtHoras);
         horas.setText("Total de horas: ");
         //TODO Adicionar lógica para calcular horas
+    }
+
+    public void onEnviarMensagem(View view) {
+        Intent intent = new Intent(this, EnviarMensagemActivity.class);
+
+        startActivity(intent);
     }
 }
